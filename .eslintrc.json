@@ -1,0 +1,21 @@
+{
+    "env": {
+        "es6": true,
+        "browser": true,
+        "jquery": true
+    },
+    "root": true,
+	"extends": [
+        "eslint:recommended",
+        "wordpress"
+    ],
+    "parserOptions": {
+		"ecmaVersion": 6
+    },
+    "rules": {
+        "prefer-const": ["error", {
+            "destructuring": "any",
+            "ignoreReadBeforeAssign": false
+        }]
+    }
+}
