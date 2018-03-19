@@ -16,3 +16,22 @@ namespace WPElk\PleaseComeBack;
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
+
+define( __NAMESPACE__ . '\DIR_PATH', plugin_dir_url( __FILE__ ) );
+
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_scripts' );
+
+/**
+ * Enqueue the necessary script to the page.
+ *
+ * @return void
+ */
+function enqueue_scripts() {
+	wp_enqueue_script(
+		'please-come-back-title',
+		DIR_PATH . 'assets/js/please-come-back-title.js',
+		array( 'jquery' ),
+		false,
+		true
+	);
+}
