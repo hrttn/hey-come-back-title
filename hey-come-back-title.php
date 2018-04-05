@@ -1,17 +1,17 @@
 <?php
 /**
- * Plugin Name: Please Come Back Title
+ * Plugin Name: Hey Come Back! Title
  * Description: Bring your users back by changing the title of your page when they leave the tab.
  * Version: 1.0.0
  * Author: WP Elk
  *
  * @package    WPElk
- * @subpackage PleaseComeBack
+ * @subpackage HeyComeBack
  * @author     WP Elk <hugo@hugorettien.com>
  * @link       https://wpelk.com
  */
 
-namespace WPElk\PleaseComeBack;
+namespace WPElk\HeyComeBack;
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
@@ -29,7 +29,7 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_scripts' );
 function enqueue_scripts() {
 	wp_enqueue_script(
 		'please-come-back-title',
-		DIR_PATH . 'assets/js/please-come-back-title.js',
+		DIR_PATH . 'assets/js/hey-come-back-title.js',
 		array( 'jquery' ),
 		false,
 		true
