@@ -4,6 +4,10 @@
  * Description: Bring your users back by changing the title of your page when they leave the tab.
  * Version: 1.0.0
  * Author: WP Elk
+ * Author URI:   https://wpelk.com/
+ * License:      GPL3
+ * License URI:  https://www.gnu.org/licenses/gpl-3.0.en.html
+ * Text Domain:  hey-come-back-title
  *
  * @package    WPElk
  * @subpackage HeyComeBack
