@@ -1,10 +1,11 @@
 <?php
 /**
  * Plugin Name: Hey Come Back! Title
+ * Plugin URI:   https://www.wpelk.com/plugins/hey-come-back-title/
  * Description: Bring your users back by changing the title of your page when they leave the tab.
  * Version: 1.0.0
  * Author: WP Elk
- * Author URI:   https://wpelk.com/
+ * Author URI:   https://www.wpelk.com/
  * License:      GPL3
  * License URI:  https://www.gnu.org/licenses/gpl-3.0.en.html
  * Text Domain:  hey-come-back-title
@@ -12,7 +13,7 @@
  * @package    WPElk
  * @subpackage HeyComeBack
  * @author     WP Elk <hugo@hugorettien.com>
- * @link       https://wpelk.com
+ * @link       https://www.wpelk.com
  */
 
 namespace WPElk\HeyComeBack;
