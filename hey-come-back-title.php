@@ -29,7 +29,7 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_scripts' );
 function enqueue_scripts() {
     wp_register_script(
         'hey-come-back-title',
-        DIR_PATH . 'assets/js/hey-come-back-title.js',
+        DIR_PATH . 'assets/js/bundle.min.js',
         array( 'jquery' ),
         false,
         true

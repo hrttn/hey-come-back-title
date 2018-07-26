@@ -1,0 +1,17 @@
+{
+  "name": "hey-come-back-title",
+  "version": "1.0.0",
+  "description": "=== Hey Come Back! Title === Contributors: wpelk Donate link: https://www.wpelk.com Tags: title, javascript, come back, Requires at least: 4.0.1 Tested up to: 4.9.5 Stable tag: trunk Requires PHP: 5.6 License: GPL3 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify-es": "^1.0.4"
+  },
+  "dependencies": {}
+}
